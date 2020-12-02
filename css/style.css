@@ -1,0 +1,250 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html {
+  font-size: 62.5%;
+}
+
+body {}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  background: rgb(102, 118, 138);
+  height: 75px;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+
+nav>a:link {
+  padding: 25px 25px;
+  float: left;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+nav>img {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+nav>button {
+  top: 25px;
+  right: 25px;
+  float: right;
+  position: relative;
+  border-radius: 4px;
+  padding: 5px;
+  color: rgb(102, 118, 138);
+}
+
+.grit {
+  background: rgb(102, 118, 138);
+  color: rgb(241, 241, 241);
+  height: 550px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  float: left;
+}
+
+.grit>h1 {
+  background: rgb(102, 118, 138);
+  font-size: 7rem;
+  font-weight: 600;
+  margin: 0;
+  padding-top: 100px;
+}
+
+.grit>p {
+  background: rgb(102, 118, 138);
+  font-size: 3rem;
+  font-weight: 300;
+  padding: 50px 475px 0 475px;
+}
+
+.grit>span {
+  background: rgb(102, 118, 138);
+  font-size: 2rem;
+  font-weight: 200;
+  display: inline-block;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  width: 100%;
+}
+
+.why {
+  background: rgb(255, 255, 255);
+  color: rgb(22, 31, 42);
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  width: 100%;
+  float: left;
+}
+
+.why>h3 {
+  font-size: 5rem;
+  font-weight: 600;
+  margin: 0;
+  padding-top: 125px;
+}
+
+.why>p {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 20px 600px 100px 600px;
+  float: left;
+}
+
+.info {
+  background: rgb(219, 223, 226);
+  color: rgb(22, 31, 42);
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  width: 100%;
+  height: 650px;
+  float: left;
+}
+
+.visitGym {
+  font-size: 2rem;
+  font-weight: 200;
+  width: 50%;
+  height: 550px;
+  padding: 100px 25px 100px 100px;
+  float: left;
+}
+
+.visitGym>img {
+  padding-bottom: 30px;
+}
+
+.visitGym>p {
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 30px 60px 30px 60px;
+}
+
+.hireUs {
+  font-size: 2rem;
+  font-weight: 200;
+  width: 50%;
+  height: 550px;
+  padding: 100px 100px 100px 25px;
+  float: left;
+}
+
+.hireUs>img {
+  padding-bottom: 30px;
+}
+
+.hireUs>p {
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 30px 60px 30px 60px;
+}
+
+.info section>button {
+  padding: 10px 50px;
+  color: rgb(22, 31, 42);
+}
+
+.volunteer {
+  background: rgb(255, 255, 255);
+  color: rgb(22, 31, 42);
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  height: 600px;
+  width: 100%;
+  float: left;
+}
+
+.volunteer>h3 {
+  font-size: 5rem;
+  font-weight: 600;
+  margin: 0;
+  padding-top: 125px;
+}
+
+.volunteer>p {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 20px 475px 100px 475px;
+  float: left;
+}
+
+.volunteer>button {
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 10px 50px;
+  color: rgb(22, 31, 42);
+}
+
+footer {
+  background: rgb(22, 31, 42);
+  height: 300px;
+  clear: left;
+}
+.misc {
+  padding: 25px 0 0 25px;
+  font-family: 'Roboto Condensed', sans-serif;
+  float: left;
+}
+footer .misc > span{
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: rgb(77, 90, 107);
+  float: left;
+}
+footer .misc > a{
+  font-weight: 200;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.contactUs {
+  padding: 25px 25px 0 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  float: right;
+}
+footer .contactUs > span{
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+}
+footer .contactUs > a{
+  font-weight: 200;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
